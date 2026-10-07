@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-fb-downloader",
+  "version": "1.0.0",
+  "description": "WhatsApp Facebook Video Downloader Bot built with Node.js, whatsapp-web.js, fb-downloader-scrapper, and yt-dlp",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "facebook",
+    "video-downloader",
+    "fb-downloader-scrapper",
+    "yt-dlp",
+    "whatsapp-web.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fb-downloader-scrapper": "^1.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

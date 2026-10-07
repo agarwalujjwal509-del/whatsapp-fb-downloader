@@ -1,0 +1,17 @@
+services:
+  - type: worker
+    name: whatsapp-fb-downloader
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: ALLOWED_PHONE_NUMBER
+        value: "7870112967"
+      - key: MAX_FILE_SIZE_MB
+        value: "2000"
+      - key: MAX_DOWNLOADS_PER_USER
+        value: "0"
+      - key: RATE_LIMIT_MINUTES
+        value: "0"
+      - key: DOWNLOAD_TIMEOUT
+        value: "300000"

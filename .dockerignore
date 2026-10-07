@@ -1,0 +1,8 @@
+node_modules
+downloads/*.mp4
+downloads/*.jpg
+downloads/*.png
+logs/*.log
+scratch
+.git
+discloud-deploy.zip
